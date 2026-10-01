@@ -1,0 +1,53 @@
+[
+  {
+    "id": "F-01",
+    "title": "Excessive privilege",
+    "description": "Admin access not reviewed quarterly.",
+    "severity": "high",
+    "control_id": "A.9.4",
+    "category": "access",
+    "owner": "sec",
+    "due": "2026-10-15T00:00:00Z",
+    "status": "open"
+  },
+  {
+    "id": "F-02",
+    "title": "Insecure default config",
+    "description": "Dev defaults shipped to prod.",
+    "severity": "medium",
+    "control_id": "A.5.11",
+    "category": "config",
+    "owner": "platform",
+    "due": "2026-10-01T00:00:00Z",
+    "status": "open"
+  },
+  {
+    "id": "F-03",
+    "title": "Missing key rotation",
+    "description": "API keys not rotated per policy.",
+    "severity": "medium",
+    "control_id": "A.5.11",
+    "category": "config",
+    "status": "closed"
+  },
+  {
+    "id": "F-04",
+    "title": "Data residency gap",
+    "description": "Customer data processed outside EU region.",
+    "severity": "critical",
+    "control_id": "A.5.9",
+    "category": "privacy",
+    "owner": "dpo",
+    "due": "2026-09-30T00:00:00Z",
+    "status": "open"
+  },
+  {
+    "id": "F-05",
+    "title": "Outdated vendor risk assessment",
+    "description": "Vendor risk assessment more than 12 months old.",
+    "severity": "low",
+    "control_id": "A.5.19",
+    "category": "supply-chain",
+    "status": "closed"
+  }
+]
